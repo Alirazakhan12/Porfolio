@@ -12,8 +12,11 @@
 #main-div {
   width: 100%;
   height: 600px;
-  background: linear-gradient(to right, #02294c 70%, #f75802 30%);
+  /* background: linear-gradient(to right, #02294c 70%, #f75802 30%); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/backgroundimg.jpg");
   border-bottom: 1px solid white;
+  /* background-size: 100% 100%; */
 }
 #container {
   position: absolute;

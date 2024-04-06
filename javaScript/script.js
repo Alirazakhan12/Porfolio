@@ -15,7 +15,7 @@ function show() {
 $(window).scroll(function () {
   let scroll = $(window).scrollTop();
   if (scroll > 40) {
-    $(".container-fluid").css("background", "#0E3360");
+    $(".container-fluid").css("background", "#222529");
     $(".container-fluid").css("transition", "1s");
   } else {
     $(".container-fluid").css("background", "transparent");
@@ -76,27 +76,27 @@ function updateTheme() {
   let moon_icon = document.getElementsByClassName("fa-moon")[0];
   if (darkMode) {
     // Dark mode
-    body.style.backgroundColor = "#02294C";
+    body.style.backgroundColor = "#090a0f";
     body.style.color = "white"; // Change text color to white
     scroll_icon.style.color = "white";
     caption.style.color = "white";
     webCard.style.color = "white";
-    webCard.style.backgroundColor = "#0E3360";
+    webCard.style.backgroundColor = "#222529";
     uiCard.style.color = "white";
-    uiCard.style.backgroundColor = "#0E3360";
+    uiCard.style.backgroundColor = "#222529";
     webDesignCard.style.color = "white";
-    webDesignCard.style.backgroundColor = "#0E3360";
+    webDesignCard.style.backgroundColor = "#222529";
     seoCard.style.color = "white";
-    seoCard.style.backgroundColor = "#0E3360";
-    contact.style.backgroundColor = "#0E3360";
-    address.style.backgroundColor = "#0E3360";
+    seoCard.style.backgroundColor = "#222529";
+    contact.style.backgroundColor = "#222529";
+    address.style.backgroundColor = "#222529";
     address.style.color = "white";
     mycard.style.backgroundImage = "none";
-    mycard.style.backgroundColor = "#0E3360";
+    mycard.style.backgroundColor = "#222529";
     mycard2.style.backgroundImage = "none";
-    mycard2.style.backgroundColor = "#0E3360";
+    mycard2.style.backgroundColor = "#222529";
     mycard3.style.backgroundImage = "none";
-    mycard3.style.backgroundColor = "#0E3360";
+    mycard3.style.backgroundColor = "#222529";
     moon_icon.style.color = "#02294c";
   } else {
     // Light mode
