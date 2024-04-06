@@ -224,7 +224,10 @@
     width: 240px;
   }
   #main-div {
-    background: #02294c;
+    /* background: #02294c; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/backgroundimg.jpg");
+    background-size: cover;
   }
 
   #caption {
